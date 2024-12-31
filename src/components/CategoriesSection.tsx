@@ -3,29 +3,29 @@ import CategoryItem from "./CategoryItem";
 const CategoriesSection = () => {
   return (
     <div className="max-w-screen-2xl px-5 mx-auto mt-24">
-      <h2 className="text-black text-5xl font-normal tracking-[1.56px] max-sm:text-4xl mb-12">
-        Our Categories
-      </h2>
+      <div className=" flex text-black justify-center items-center text-5xl font-normal tracking-[1.56px] max-sm:text-4xl mb-12">
+        Shop Categories
+      </div>
       <div className="flex justify-between flex-wrap gap-y-10">
         <CategoryItem
-          categoryTitle="Special Edition"
-          image="luxury category 1.png"
-          link="special-edition"
+          categoryTitle="Dresses"
+          image="dress.jpg"
+          link="dresses"
         />
         <CategoryItem
-          categoryTitle="Luxury Collection"
-          image="luxury category 2.png"
-          link="luxury-collection"
+          categoryTitle="Bottoms"
+          image="pants.jpg"
+          link="bottoms"
         />
         <CategoryItem
-          categoryTitle="Summer Edition"
-          image="luxury category 3.png"
-          link="summer-edition"
+          categoryTitle="Tops"
+          image="set_quality.jpg"
+          link="tops"
         />
         <CategoryItem
-          categoryTitle="Unique Collection"
-          image="luxury category 4.png"
-          link="unique-collection"
+          categoryTitle="Accessories"
+          image="bag.jpg"
+          link="accessories"
         />
       </div>
     </div>

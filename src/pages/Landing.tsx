@@ -4,7 +4,7 @@ const Landing = () => {
   return (
     <>
       <Banner />
-      <HomeCollectionSection />
+      {/*<HomeCollectionSection />*/}
       <CategoriesSection />
       
     </>
